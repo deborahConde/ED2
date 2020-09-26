@@ -6,7 +6,7 @@ namespace ed2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("projeto enviado ao repositorio ed2!");
         }
     }
 }
