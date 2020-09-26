@@ -26,7 +26,7 @@ namespace ed2
             string[] todasLinhas = File.ReadAllLines(@pathArquivo); //Le o arquivo todo
             int tamArqTotal = todasLinhas.Length;
             string[] linhas = RandomLinhas(todasLinhas, tamBloco, tamArqTotal);//Reduz para o tamanho do bloco desejado e aleatoriza as linhas
-            Livros[] livros = new Livros[tamBloco];
+            Livro livros = new Livro[tamBloco];
 
 
             for (int i = 0; i < linhas.Length; i++)
